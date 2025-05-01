@@ -1,0 +1,26 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+     
+ background-color: rgb(188, 154, 112);}
+
+.stew-content {
+ 
+    width: 700px;
+    background-color: #fff9f0;
+    padding: 10px;
+    margin: auto;
+}
+h1,h2,h3 {
+   color: #c34400;
+    
+}
+footer { 
+    background-color: #542c16;
+    color:#fff9f0;
+    padding: 7px;
+    padding-bottom: 7px;
+    clear: both;
+    padding-left: 5px; 
+}
