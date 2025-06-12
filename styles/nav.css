@@ -1,4 +1,13 @@
-.nav-bar {
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin:0;
+    padding:0;
+}
+/* new css above and spelling of navbar below */
+.navbar {
     display: flex;
     position: relative;
     justify-content: space-between;
@@ -63,8 +72,8 @@
 }
 
 @media screen and (max-width:800px) {
-
-    .nav-bar {
+/* spelling of navbar */
+    .navbar {
         flex-direction: column;
         align-items:flex-start;
     }
@@ -88,7 +97,8 @@
     .kiwi ul li a {
         padding:8px 16px;
     }
-    .kiwi:active {
+    /* the .active is not a :psuedo class */
+    .kiwi.active {
         display: flex;
     }
     nav a {
